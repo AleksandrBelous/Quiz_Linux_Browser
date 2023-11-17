@@ -1,0 +1,57 @@
+{
+  "info": "вывод последних строк текстового файла",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/tail.1.html",
+  "questions": [
+    {
+      "question": "Как вывести последние 10 строк файла 'file.txt'?",
+      "options": [
+        "tail file.txt",
+        "tail -n file.txt",
+        "tail -10 file.txt",
+        "tail -r 10 file.txt"
+      ],
+      "answer": "tail -10 file.txt"
+    },
+    {
+      "question": "Как вывести последние 5 строк файла 'file.txt', начиная с 20-й строки?",
+      "options": [
+        "tail -n +20 -5 file.txt",
+        "tail -20 -n 5 file.txt",
+        "tail -n 20,5 file.txt",
+        "tail -c +20 -5 file.txt"
+      ],
+      "answer": "tail -n +20 -5 file.txt"
+    },
+    {
+      "question": "Как отслеживать изменения файла 'file.txt' в режиме реального времени?",
+      "options": [
+        "tail -f file.txt",
+        "tail -t file.txt",
+        "tail -r file.txt",
+        "tail -l file.txt"
+      ],
+      "answer": "tail -f file.txt"
+    },
+    {
+      "question": "Как вывести последние 20 строк из нескольких файлов ('file1.txt', 'file2.txt', 'file3.txt')?",
+      "options": [
+        "tail -n 20 file1.txt file2.txt file3.txt",
+        "tail -20 file1.txt file2.txt file3.txt",
+        "tail -c 20 file1.txt file2.txt file3.txt",
+        "tail -n +20 file1.txt file2.txt file3.txt"
+      ],
+      "answer": "tail -n 20 file1.txt file2.txt file3.txt"
+    },
+    {
+      "question": "Как вывести последние 10 байт файла 'file.txt'?",
+      "options": [
+        "tail -c 10 file.txt",
+        "tail -b 10 file.txt",
+        "tail -n 10 file.txt",
+        "tail -r 10 file.txt"
+      ],
+      "answer": "tail -c 10 file.txt"
+    }
+  ],
+  "question_state": 0
+}

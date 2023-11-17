@@ -1,0 +1,57 @@
+{
+  "info": "инструмент архивирования файлов без сжатия",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/tar.1.html",
+  "questions": [
+    {
+      "question": "Как создать архив?",
+      "options": [
+        "-c",
+        "-x",
+        "-d",
+        "-r"
+      ],
+      "answer": "-c"
+    },
+    {
+      "question": "Как распаковать архив?",
+      "options": [
+        "-c",
+        "-x",
+        "-d",
+        "-r"
+      ],
+      "answer": "-x"
+    },
+    {
+      "question": "Как добавить файл в архив?",
+      "options": [
+        "-c",
+        "-x",
+        "-d",
+        "-r"
+      ],
+      "answer": "-r"
+    },
+    {
+      "question": "Как просмотреть содержимое архива?",
+      "options": [
+        "-c",
+        "-t",
+        "-d",
+        "-r"
+      ],
+      "answer": "-t"
+    },
+    {
+      "question": "Как извлечь файл из архива?",
+      "options": [
+        "-c",
+        "-x",
+        "-d",
+        "-r"
+      ],
+      "answer": "-x"
+    }
+  ],
+  "question_state": 0
+}

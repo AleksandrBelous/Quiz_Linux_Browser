@@ -1,0 +1,57 @@
+{
+  "info": "создание новой директории",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/mkdir.1p.html",
+  "questions": [
+    {
+      "question": "Как создать директорию в текущей папке с именем 'test'?",
+      "options": [
+        "mkdir test",
+        "mkdir -m test",
+        "mkdir -p test",
+        "mkdir -v test"
+      ],
+      "answer": "mkdir test"
+    },
+    {
+      "question": "Как создать директорию в текущей папке, а также все промежуточные директории с именем 'dir1/dir2/dir3'?",
+      "options": [
+        "mkdir -p dir1/dir2/dir3",
+        "mkdir -d dir1/dir2/dir3",
+        "mkdir -r dir1/dir2/dir3",
+        "mkdir -i dir1/dir2/dir3"
+      ],
+      "answer": "mkdir -p dir1/dir2/dir3"
+    },
+    {
+      "question": "Как создать директорию в текущей папке с именем 'test' и задать ей права доступа на чтение, запись и исполнение для всех пользователей?",
+      "options": [
+        "mkdir -R test",
+        "mkdir -x test",
+        "mkdir -m 777 test",
+        "mkdir -wrx test"
+      ],
+      "answer": "mkdir -m 777 test"
+    },
+    {
+      "question": "Как создать директорию в указанной папке '/home/user/' с именем 'test'?",
+      "options": [
+        "mkdir /home/user/test",
+        "mkdir -p /home/user/test",
+        "mkdir -d /home/user/test",
+        "mkdir -v /home/user/test"
+      ],
+      "answer": "mkdir /home/user/test"
+    },
+    {
+      "question": "Как создать несколько директорий сразу в текущей папке с именами 'dir1', 'dir2', 'dir3'?",
+      "options": [
+        "mkdir dir1 dir2 dir3",
+        "mkdir -a dir1 dir2 dir3",
+        "mkdir -m dir1 dir2 dir3",
+        "mkdir -v dir1 dir2 dir3"
+      ],
+      "answer": "mkdir dir1 dir2 dir3"
+    }
+  ],
+  "question_state": 4
+}

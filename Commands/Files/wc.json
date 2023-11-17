@@ -1,0 +1,57 @@
+{
+  "info": "подсчет количества строк, слов и байтов в файле или потоке данных",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/wc.1.html",
+  "questions": [
+    {
+      "question": "Как подсчитать количество строк, слов и байтов в файле 'file.txt'?",
+      "options": [
+        "wc file.txt",
+        "count file.txt",
+        "wordcount file.txt",
+        "linecount file.txt"
+      ],
+      "answer": "wc file.txt"
+    },
+    {
+      "question": "Как вывести только количество строк в файле 'file.txt'?",
+      "options": [
+        "wc -l file.txt",
+        "wc -w file.txt",
+        "wc -c file.txt",
+        "wc -lw file.txt"
+      ],
+      "answer": "wc -l file.txt"
+    },
+    {
+      "question": "Как подсчитать количество слов в текстовом файле 'file.txt'?",
+      "options": [
+        "wc -w file.txt",
+        "wc -l file.txt",
+        "wc -c file.txt",
+        "wc -lw file.txt"
+      ],
+      "answer": "wc -w file.txt"
+    },
+    {
+      "question": "Как подсчитать количество байтов в файле 'file.txt'?",
+      "options": [
+        "wc -c file.txt",
+        "wc -w file.txt",
+        "wc -l file.txt",
+        "wc -lw file.txt"
+      ],
+      "answer": "wc -c file.txt"
+    },
+    {
+      "question": "Как подсчитать количество строк, слов и байтов в потоке данных, переданном через pipe?",
+      "options": [
+        "cat file.txt | wc",
+        "wc < file.txt",
+        "wc | cat file.txt",
+        "cat file.txt | wc -lw"
+      ],
+      "answer": "cat file.txt | wc"
+    }
+  ],
+  "question_state": 0
+}

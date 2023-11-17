@@ -1,0 +1,57 @@
+{
+  "info": "создание файлов и изменение времени их последнего изменения",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/touch.1.html",
+  "questions": [
+    {
+      "question": "Как создать пустой файл 'file.txt'?",
+      "options": [
+        "touch file.txt",
+        "create file.txt",
+        "new file.txt",
+        "add file.txt"
+      ],
+      "answer": "touch file.txt"
+    },
+    {
+      "question": "Как изменить время доступа и модификации файла 'file.txt' на текущее время?",
+      "options": [
+        "touch file.txt",
+        "touch -a file.txt",
+        "touch -m file.txt",
+        "touch -am file.txt"
+      ],
+      "answer": "touch file.txt"
+    },
+    {
+      "question": "Как изменить только время модификации файла 'file.txt' на текущее время?",
+      "options": [
+        "touch -m file.txt",
+        "touch -a file.txt",
+        "touch -r file.txt",
+        "touch -t file.txt"
+      ],
+      "answer": "touch -m file.txt"
+    },
+    {
+      "question": "Как создать несколько файлов ('file1.txt', 'file2.txt', 'file3.txt') одной командой?",
+      "options": [
+        "touch file1.txt file2.txt file3.txt",
+        "touch file{1..3}.txt",
+        "touch file*.txt",
+        "touch file[123].txt"
+      ],
+      "answer": "touch file1.txt file2.txt file3.txt"
+    },
+    {
+      "question": "Как изменить время последнего доступа и модификации файла 'file.txt' на 2022-05-31 16:30?",
+      "options": [
+        "touch -t 202205311630 file.txt",
+        "touch -a 202205311630 file.txt",
+        "touch -m 202205311630 file.txt",
+        "touch --time=202205311630 file.txt"
+      ],
+      "answer": "touch -t 202205311630 file.txt"
+    }
+  ],
+  "question_state": 0
+}

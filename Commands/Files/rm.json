@@ -1,0 +1,57 @@
+{
+  "info": "удаление файлов и директорий",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/rm.1.html",
+  "questions": [
+    {
+      "question": "Как удалить файл 'file.txt'?",
+      "options": [
+        "rm file.txt",
+        "remove file.txt",
+        "delete file.txt",
+        "erase file.txt"
+      ],
+      "answer": "rm file.txt"
+    },
+    {
+      "question": "Как удалить все файлы с расширением '.txt' в текущей директории?",
+      "options": [
+        "rm *.txt",
+        "rm -r *.txt",
+        "rm -f *.txt",
+        "rm -i *.txt"
+      ],
+      "answer": "rm *.txt"
+    },
+    {
+      "question": "Как удалить директорию 'dir1', включая все ее поддиректории и файлы?",
+      "options": [
+        "rm -r dir1",
+        "rm -d dir1",
+        "rm -fR dir1",
+        "rm -i dir1"
+      ],
+      "answer": "rm -r dir1"
+    },
+    {
+      "question": "Как удалить файл 'file.txt' без запроса подтверждения?",
+      "options": [
+        "rm -f file.txt",
+        "rm -r file.txt",
+        "rm -i file.txt",
+        "rm --force file.txt"
+      ],
+      "answer": "rm -f file.txt"
+    },
+    {
+      "question": "Как удалить директорию 'dir1' и ее содержимое, без запроса подтверждения?",
+      "options": [
+        "rm -rf dir1",
+        "rm -dR dir1",
+        "rm -f dir1",
+        "rm --force -r dir1"
+      ],
+      "answer": "rm -rf dir1"
+    }
+  ],
+  "question_state": 0
+}

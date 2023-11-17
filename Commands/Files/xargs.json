@@ -1,0 +1,57 @@
+{
+  "info": "передача аргументов команды из стандартного потока в качестве параметров",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/xargs.1.html",
+  "questions": [
+    {
+      "question": "Как выполнить команду 'echo' для каждой строки файла 'file.txt'?",
+      "options": [
+        "cat file.txt | xargs echo",
+        "echo file.txt | xargs",
+        "xargs cat file.txt echo",
+        "echo xargs file.txt"
+      ],
+      "answer": "cat file.txt | xargs echo"
+    },
+    {
+      "question": "Как удалить все файлы с расширением '.txt' в текущей директории?",
+      "options": [
+        "ls *.txt | xargs rm",
+        "rm -r *.txt | xargs",
+        "rm | ls *.txt | xargs",
+        "xargs ls *.txt | rm"
+      ],
+      "answer": "ls *.txt | xargs rm"
+    },
+    {
+      "question": "Как создать пять пустых файлов, используя команду 'touch' и 'xargs'?",
+      "options": [
+        "seq 5 | xargs touch",
+        "touch | seq 5 | xargs",
+        "touch -n 5 | xargs",
+        "xargs touch -n 5"
+      ],
+      "answer": "seq 5 | xargs touch"
+    },
+    {
+      "question": "Как найти и вывести список всех файлов с расширением '.txt', содержащих строку 'hello'?",
+      "options": [
+        "grep -l 'hello' *.txt | xargs",
+        "ls *.txt | grep 'hello' | xargs",
+        "find . -name '*.txt' | xargs grep 'hello'",
+        "xargs find . -name '*.txt' | grep 'hello'"
+      ],
+      "answer": "grep -l 'hello' *.txt | xargs"
+    },
+    {
+      "question": "Как найти и удалить все файлы с расширением '.bak', не запрашивая подтверждения?",
+      "options": [
+        "find . -name '*.bak' | xargs rm -f",
+        "rm -f *.bak | xargs find .",
+        "grep '*.bak' | xargs rm -rf",
+        "xargs *.bak | rm -f"
+      ],
+      "answer": "find . -name '*.bak' | xargs rm -f"
+    }
+  ],
+  "question_state": 0
+}

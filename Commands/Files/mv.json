@@ -1,0 +1,57 @@
+{
+  "info": "перемещение или переименование файлов и директорий",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/mv.1.html",
+  "questions": [
+    {
+      "question": "Как переименовать файл 'file.txt' на 'newfile.txt'?",
+      "options": [
+        "mv file.txt newfile.txt",
+        "mv newfile.txt file.txt",
+        "mv -r file.txt newfile.txt",
+        "mv -n file.txt newfile.txt"
+      ],
+      "answer": "mv file.txt newfile.txt"
+    },
+    {
+      "question": "Как переместить директорию 'dir1' внутрь директории 'dir2'?",
+      "options": [
+        "mv dir1 dir2/",
+        "mv dir1/ dir2/",
+        "mv dir1 dir2",
+        "mv dir1/ dir2"
+      ],
+      "answer": "mv dir1 dir2/"
+    },
+    {
+      "question": "Как переместить файл 'file.txt' из текущей директории в директорию '/home/user/'?",
+      "options": [
+        "mv file.txt /home/user/",
+        "mv /home/user/ file.txt",
+        "mv -t /home/user/ file.txt",
+        "mv -p file.txt /home/user/"
+      ],
+      "answer": "mv file.txt /home/user/"
+    },
+    {
+      "question": "Как переместить все файлы из директории 'dir1' в директорию 'dir2', сохраняя структуру поддиректорий?",
+      "options": [
+        "mv dir1/* dir2/",
+        "mv -r dir1/* dir2/",
+        "mv -pR dir1/* dir2/",
+        "mv -i dir1/* dir2/"
+      ],
+      "answer": "mv -pR dir1/* dir2/"
+    },
+    {
+      "question": "Как создать резервную копию файла 'file.txt' перед его перемещением в директорию 'dir1'?",
+      "options": [
+        "mv file.txt dir1/file.txt.bak",
+        "mv -b file.txt dir1/",
+        "mv --backup file.txt dir1/",
+        "mv -n file.txt dir1/"
+      ],
+      "answer": "mv --backup file.txt dir1/"
+    }
+  ],
+  "question_state": 0
+}

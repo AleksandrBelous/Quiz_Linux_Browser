@@ -1,0 +1,97 @@
+{
+  "info": "список смонтированных файловых систем",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/findmnt.1p.html",
+  "questions": [
+    {
+      "question": "Как выглядит обычное обращение к команде?",
+      "options": [
+        "findmnt",
+        "-findmnt",
+        "/findmnt",
+        "нет правильного ответа"
+      ],
+      "answer": "findmnt"
+    },
+    {
+      "question": "Как отсортировать информацию в виде списка?",
+      "options": [
+        "-l",
+        "-s",
+        "-r",
+        "-L"
+      ],
+      "answer": "-l"
+    },
+    {
+      "question": "Как выбрать тип файловой системы?",
+      "options": [
+        "-e",
+        "-t",
+        "-l",
+        "-H"
+      ],
+      "answer": "-t"
+    },
+    {
+      "question": "Как указать точку монтирования?",
+      "options": [
+        "-t",
+        "-m",
+        "--mount",
+        "--target"
+      ],
+      "answer": "--target"
+    },
+    {
+      "question": "Как преобразовать вывод в реальные имена устройств?",
+      "options": [
+        "--name",
+        "-e",
+        "--evaluate",
+        "--transfer"
+      ],
+      "answer": "--evaluate"
+    },
+    {
+      "question": "Как включить режим отслеживания действий?",
+      "options": [
+        "-w",
+        "-a",
+        "-E",
+        "-p"
+      ],
+      "answer": "-p"
+    },
+    {
+      "question": "Как вывести информацию о реальных файловых системах?",
+      "options": [
+        "-r",
+        "-s",
+        "--real",
+        "--r"
+      ],
+      "answer": "--real"
+    },
+    {
+      "question": "Как указывается тип файловой системы?",
+      "options": [
+        "TYPE",
+        "FILETYPE",
+        "SYST",
+        "FSTYPE"
+      ],
+      "answer": "FSTYPE"
+    },
+    {
+      "question": "Как указывается UUID файловой системы?",
+      "options": [
+        "UUID",
+        "FUUID",
+        "FSUUID",
+        "ID"
+      ],
+      "answer": "UUID"
+    }
+  ],
+  "question_state": 0
+}

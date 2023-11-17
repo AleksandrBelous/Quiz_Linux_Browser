@@ -1,0 +1,57 @@
+{
+  "info": "отображает текущую рабочую директорию",
+  "man": "Мануал: https://man7.org/linux/man-pages/man1/pwd.1.html",
+  "questions": [
+    {
+      "question": "Как вывести полный путь к текущей рабочей директории?",
+      "options": [
+        "pwd -P",
+        "pwd -L",
+        "pwd -a",
+        "pwd -v"
+      ],
+      "answer": "pwd -P"
+    },
+    {
+      "question": "Как вывести только имя текущей рабочей директории?",
+      "options": [
+        "pwd -P",
+        "pwd -L",
+        "basename `pwd`",
+        "pwd -n"
+      ],
+      "answer": "basename `pwd`"
+    },
+    {
+      "question": "Как скопировать полный путь к текущей рабочей директории в буфер обмена?",
+      "options": [
+        "pwd | xclip -selection clipboard",
+        "pwd -c | xsel --clipboard",
+        "pwd -P | pbcopy",
+        "pwd -L | clip"
+      ],
+      "answer": "pwd -P | pbcopy"
+    },
+    {
+      "question": "Как проверить, является ли текущая рабочая директория символической ссылкой?",
+      "options": [
+        "test -L `pwd`",
+        "test -p `pwd`",
+        "test -S `pwd`",
+        "test -d `pwd`"
+      ],
+      "answer": "test -L `pwd`"
+    },
+    {
+      "question": "Как вывести путь к домашней директории текущего пользователя?",
+      "options": [
+        "echo $HOME",
+        "pwd -h",
+        "cd ~; pwd",
+        "ls -d ~"
+      ],
+      "answer": "echo $HOME"
+    }
+  ],
+  "question_state": 0
+}

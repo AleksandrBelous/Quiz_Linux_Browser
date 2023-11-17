@@ -1,0 +1,57 @@
+{
+  "info": "просмотр журнала системных сообщений",
+  "man": "Мануал: https://www.freedesktop.org/software/systemd/man/journalctl.html",
+  "questions": [
+    {
+      "question": "Как вывести все системные сообщения?",
+      "options": [
+        "journalctl",
+        "journalctl -a",
+        "journalctl -f",
+        "journalctl -l"
+      ],
+      "answer": "journalctl"
+    },
+    {
+      "question": "Как вывести все сообщения за последний час?",
+      "options": [
+        "journalctl --since '1 hour ago'",
+        "journalctl -n 1h",
+        "journalctl -S -1h",
+        "journalctl -o new,-1h"
+      ],
+      "answer": "journalctl --since '1 hour ago'"
+    },
+    {
+      "question": "Как вывести ошибки уровня 'crit' за последние сутки?",
+      "options": [
+        "journalctl -p crit --since yesterday",
+        "journalctl -p crit -n 1d",
+        "journalctl -p 2 --since yestarday",
+        "journalctl -p 2 -n 1d"
+      ],
+      "answer": "journalctl -p crit --since yesterday"
+    },
+    {
+      "question": "Как вывести все сообщения, связанные с процессом 'httpd'?",
+      "options": [
+        "journalctl _COMM=httpd",
+        "journalctl -u httpd",
+        "journalctl -p httpd",
+        "journalctl -t httpd"
+      ],
+      "answer": "journalctl _COMM=httpd"
+    },
+    {
+      "question": "Как вывести последние 20 сообщений в журнале?",
+      "options": [
+        "journalctl -n 20",
+        "journalctl -f 20",
+        "journalctl -l 20",
+        "journalctl -m 20"
+      ],
+      "answer": "journalctl -n 20"
+    }
+  ],
+  "question_state": 0
+}
